@@ -219,3 +219,4 @@ function displayFilteredPokemon(pokemon) {
     pokedex.appendChild(pokemonCard);
   });
 }
+
