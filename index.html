@@ -8,7 +8,7 @@
     <link rel="icon" href="img/pokemon-icon.svg" type="image/x-icon" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
-  <body>
+  <body onload="fetchAllPokemon()">
     <header>
       <img src="img/pokemon-icon.svg" alt="Logo" id="logo" />
       <h1 id="title">Pokedex</h1>
@@ -20,6 +20,6 @@
       <button id="load-more">Load more</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="refactored.js"></script>
   </body>
 </html>

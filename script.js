@@ -1,3 +1,5 @@
+//this is the first file that was used in production
+
 let allPokemon = [];
 let displayedPokemonCount = 0;
 
